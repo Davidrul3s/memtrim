@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "memtrim",
+  "version": "${version}",
+  "name": "MemTrim",
+  "description": "Frees leftover garbage memory at safe moments (game start, leaving a world, pause menu).",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.memtrim.MemTrimClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
